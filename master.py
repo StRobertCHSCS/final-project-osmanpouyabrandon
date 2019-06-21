@@ -17,10 +17,10 @@ player_x = 250
 player_y = 100
 
 
-texture_spaceship = arcade.load_texture("images/spaceship2 (1).png")
-texture_background = arcade.load_texture("images/TWGty9.jpg")
-texture_gameover= arcade.load_texture('images/GAME OVER LOSER.png')
-texture_ALien= arcade.load_texture("images/ALIEN2.png")
+texture_spaceship = arcade.load_texture("Scc.jpg")
+texture_background = arcade.load_texture("TWGty9.jpg")
+texture_gameover= arcade.load_texture("GAME OVER LOSER.png")
+texture_ALien= arcade.load_texture("Alienss.jpg")
 ALIEN = arcade.ShapeElementList()
 
 texture_ALien_x_positions = []
@@ -116,4 +116,3 @@ def on_key_release(key, modifiers):
 
 if __name__ == '__main__':
    setup()
-
