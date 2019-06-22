@@ -1,4 +1,3 @@
-
 import random
 import arcade
 
@@ -17,10 +16,10 @@ player_x = 250
 player_y = 100
 
 
-texture_spaceship = arcade.load_texture("Scc.jpg")
+texture_spaceship = arcade.load_texture("spaceship2 (1).jpg")
 texture_background = arcade.load_texture("TWGty9.jpg")
-texture_gameover= arcade.load_texture("GAME OVER LOSER.png")
-texture_ALien= arcade.load_texture("Alienss.jpg")
+texture_gameover= arcade.load_texture("background.png")
+texture_ALien= arcade.load_texture("ALIEN2.png")
 ALIEN = arcade.ShapeElementList()
 
 texture_ALien_x_positions = []
